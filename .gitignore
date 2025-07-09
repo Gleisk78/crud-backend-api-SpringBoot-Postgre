@@ -1,0 +1,48 @@
+# Archivos de ayuda y documentación (generalmente no se ignoran a menos que sean temporales)
+HELP.md
+
+# Maven
+/target/                 # Ignora la carpeta de compilación de Maven en la raíz del proyecto
+.mvn/wrapper/maven-wrapper.jar
+
+# Eliminar estas líneas si las tienes, ya que pueden causar que subas carpetas 'target' internas
+# !**/src/main/**/target/
+# !**/src/test/**/target/
+
+# Archivos de log
+*.log                    # Ignora todos los archivos .log
+logs/                    # Ignora una posible carpeta 'logs'
+
+### STS / Eclipse ###
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+### IntelliJ IDEA ###
+.idea/                   # Ignora la carpeta de configuración del proyecto de IntelliJ
+*.iws
+*.iml
+*.ipr
+out/                     # Carpeta de salida de compilación de IntelliJ
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/   # Mantén esto si tu NetBeans realmente crea 'build' dentro de src/main
+!**/src/test/**/build/   # Mantén esto si tu NetBeans realmente crea 'build' dentro de src/test
+
+### VS Code ###
+.vscode/                 # Ignora la carpeta de configuración de VS Code
+
+### Docker ###
+Dockerfile.bak           # Ignora posibles backups de Dockerfile
+.dockerignore            # Generalmente se ignora, a menos que quieras versionarlo explícitamente
+pgdata/                  # Ignora el volumen de datos de PostgreSQL (si se crea en la raíz del proyecto)

@@ -1,0 +1,13 @@
+com\Gleisk78\CRUD_backend\repository\PersonaRepository.class
+com\Gleisk78\CRUD_backend\CrudBackendApplication.class
+com\Gleisk78\CRUD_backend\repository\PaisRepository.class
+com\Gleisk78\CRUD_backend\service\PaisServicio.class
+com\Gleisk78\CRUD_backend\entity\Pais$PaisBuilder.class
+com\Gleisk78\CRUD_backend\service\PersonaServicio.class
+com\Gleisk78\CRUD_backend\service\PersonaServicioImpl.class
+com\Gleisk78\CRUD_backend\controller\PersonaController.class
+com\Gleisk78\CRUD_backend\entity\Pais.class
+com\Gleisk78\CRUD_backend\entity\Persona$PersonaBuilder.class
+com\Gleisk78\CRUD_backend\service\PaisServicioImpl.class
+com\Gleisk78\CRUD_backend\controller\PaisController.class
+com\Gleisk78\CRUD_backend\entity\Persona.class

@@ -113,6 +113,40 @@ Base URL: `http://localhost:8080/api/v1/`
 
 * Elimina una persona por ID.
 
+### 📸 Resultados de las Peticiones `GET` con Postman
+
+#### ✅ 1. Obtener todos los países – `GET /api/v1/paises`
+
+Visualización de la lista completa de países registrados en la base de datos:
+
+![[GET país por ID](./assets/get-pais-id.png)](https://github.com/Gleisk78/crud-backend-api-SpringBoot-Postgre/blob/main/assets/CRUD-backend-Springboot_GET%20paises.png)
+
+---
+
+#### ✅ 2. Obtener país por ID – `GET /api/v1/paises/{id}`
+
+Consulta individual de un país utilizando su ID:
+
+![[GET un pais por ID](.assets/)](https://github.com/Gleisk78/crud-backend-api-SpringBoot-Postgre/blob/main/assets/CRUD-backend-Springboot_GET%20paises-id-1.png)
+
+---
+
+#### ✅ 3. Obtener todas las personas – `GET /api/v1/personas`
+
+Muestra todas las personas con su información y país asociado:
+
+![assets/CRUD-backend-Springboot_GET personas.png](https://github.com/Gleisk78/crud-backend-api-SpringBoot-Postgre/blob/main/assets/CRUD-backend-Springboot_GET%20personas.png))
+
+---
+
+#### ✅ 4. Obtener persona por ID – `GET /api/v1/personas/{id}`
+
+Detalle completo de una persona específica por su ID:
+
+![[GET persona por ID](./assets/get-persona-id.png)](https://github.com/Gleisk78/crud-backend-api-SpringBoot-Postgre/blob/main/assets/CRUD-backend-Springboot_GET%20personas-id-101.png)
+
+---
+
 ## Estructura del Proyecto
 
 ```
